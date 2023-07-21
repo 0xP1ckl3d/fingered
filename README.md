@@ -75,14 +75,14 @@ The CSV data will be saved in a file named __fingerprintData.csv__.
 ```json
     {
         "timeZone": "UTC+10:00",
-        "timestamp": "2023-07-21T01:38:26.842Z",
-        "ipAddress": "1.145.32.160",
-        "sourcePort": 59468,
+        "timestamp": "2023-07-21T01:42:56.893Z",
+        "ipAddress": "2001:bc8:182c:2028::1",
+        "sourcePort": 59652,
         "browserDetails": {
-            "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
+            "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82",
             "browser": {
-                "name": "Chrome",
-                "version": "114.0.0.0",
+                "name": "Edge",
+                "version": "114.0.1823.82",
                 "major": "114"
             },
             "cpu": {
@@ -126,7 +126,7 @@ The CSV data will be saved in a file named __fingerprintData.csv__.
         },
         "networkData": {
             "effectiveType": "4g",
-            "downlink": 9.5,
+            "downlink": 10,
             "rtt": 100
         },
         "canvasFingerprint": "data:image/png;base64,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",
@@ -140,43 +140,43 @@ The CSV data will be saved in a file named __fingerprintData.csv__.
         },
         "fonts": [],
         "firstSeenAt": {
-            "global": "2023-07-21T00:52:02.696Z",
-            "subscription": "2023-07-21T00:52:02.696Z"
+            "global": "2023-07-21T00:55:47.884Z",
+            "subscription": "2023-07-21T00:55:47.884Z"
         },
         "lastSeenAt": {
-            "global": "2023-07-21T01:38:27.084Z",
-            "subscription": "2023-07-21T01:38:27.084Z"
+            "global": "2023-07-21T01:42:57.263Z",
+            "subscription": "2023-07-21T01:42:57.263Z"
         },
         "incognito": false,
         "ips": [
-            "3b3e112d-c17f-498a-ae7c-455a37b0996d.local"
+            "2a0ed71a-2e00-40ad-ba99-fb3121b20d60.local"
         ],
         "acceptLanguage": "en-US,en;q=0.9",
         "ipInfo": {
             "data": {
                 "IP": {
-                    "address": "1.145.32.160",
+                    "address": "2001:bc8:182c:2028::1",
                     "geolocation": {
                         "accuracyRadius": 100,
-                        "latitude": -33.87070083618164,
-                        "longitude": 151.20680236816406,
+                        "latitude": 52.29999923706055,
+                        "longitude": 5.449999809265137,
                         "postalCode": "",
                         "timezone": "",
                         "city": {
-                            "name": "Sydney"
+                            "name": "Zeewolde"
                         },
                         "country": {
-                            "code": "AU",
-                            "name": "Australia"
+                            "code": "NL",
+                            "name": "Netherlands"
                         },
                         "continent": {
-                            "code": "OC",
-                            "name": "Oceania"
+                            "code": "EU",
+                            "name": "Europe"
                         },
                         "subdivisions": [
                             {
-                                "isoCode": "NSW",
-                                "name": "New South Wales"
+                                "isoCode": "FL",
+                                "name": "Flevoland"
                             }
                         ]
                     }
