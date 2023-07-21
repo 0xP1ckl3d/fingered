@@ -71,3 +71,117 @@ Run the script:
 python json2csv.py
 ```
 The CSV data will be saved in a file named __fingerprintData.csv__.
+## Example enriched data
+```json
+    {
+        "timeZone": "UTC+10:00",
+        "timestamp": "2023-07-21T01:38:26.842Z",
+        "ipAddress": "1.145.32.160",
+        "sourcePort": 59468,
+        "browserDetails": {
+            "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36",
+            "browser": {
+                "name": "Chrome",
+                "version": "114.0.0.0",
+                "major": "114"
+            },
+            "cpu": {
+                "architecture": "amd64"
+            },
+            "device": {},
+            "engine": {
+                "name": "Blink",
+                "version": "114.0.0.0"
+            },
+            "os": {
+                "name": "Windows",
+                "version": "10"
+            }
+        },
+        "basic": {
+            "screenResolution": "2560x1440",
+            "colorDepth": 24,
+            "timeZoneOffset": -600,
+            "cookiesEnabled": true,
+            "localStorageEnabled": true
+        },
+        "webGLData": {
+            "renderer": "WebKit WebGL",
+            "vendor": "WebKit",
+            "shadingLanguageVersion": "WebGL GLSL ES 1.0 (OpenGL ES GLSL ES 1.0 Chromium)"
+        },
+        "plugins": [
+            "PDF Viewer",
+            "Chrome PDF Viewer",
+            "Chromium PDF Viewer",
+            "Microsoft Edge PDF Viewer",
+            "WebKit built-in PDF"
+        ],
+        "audioData": {
+            "sampleRate": 48000
+        },
+        "touchData": {
+            "touchSupport": false,
+            "maxTouchPoints": 0
+        },
+        "networkData": {
+            "effectiveType": "4g",
+            "downlink": 9.5,
+            "rtt": 100
+        },
+        "canvasFingerprint": "data:image/png;base64,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",
+        "settings": {
+            "doNotTrack": null,
+            "language": "en-US",
+            "languages": [
+                "en-US",
+                "en"
+            ]
+        },
+        "fonts": [],
+        "firstSeenAt": {
+            "global": "2023-07-21T00:52:02.696Z",
+            "subscription": "2023-07-21T00:52:02.696Z"
+        },
+        "lastSeenAt": {
+            "global": "2023-07-21T01:38:27.084Z",
+            "subscription": "2023-07-21T01:38:27.084Z"
+        },
+        "incognito": false,
+        "ips": [
+            "3b3e112d-c17f-498a-ae7c-455a37b0996d.local"
+        ],
+        "acceptLanguage": "en-US,en;q=0.9",
+        "ipInfo": {
+            "data": {
+                "IP": {
+                    "address": "1.145.32.160",
+                    "geolocation": {
+                        "accuracyRadius": 100,
+                        "latitude": -33.87070083618164,
+                        "longitude": 151.20680236816406,
+                        "postalCode": "",
+                        "timezone": "",
+                        "city": {
+                            "name": "Sydney"
+                        },
+                        "country": {
+                            "code": "AU",
+                            "name": "Australia"
+                        },
+                        "continent": {
+                            "code": "OC",
+                            "name": "Oceania"
+                        },
+                        "subdivisions": [
+                            {
+                                "isoCode": "NSW",
+                                "name": "New South Wales"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+```
